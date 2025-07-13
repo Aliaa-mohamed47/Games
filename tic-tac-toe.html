@@ -9,14 +9,15 @@
 </head>
 <body class="bg-light">
     <div class="container py-5 text-center">
-        <h1 class="mb-4">Tic Tac Toe (X-O)</h1>
-        <div id="scoreBoard" class="mb-3 fs-5">
+    <h1 class="mb-4">Tic Tac Toe (X-O)</h1>
+    <div id="scoreBoard" class="mb-3 fs-5">
         Player X: <span id="scoreX">0</span> | Player O: <span id="scoreO">0</span>
-        </div>
+    </div>
 
-        <div id="status" class="mb-3 fs-4">Player X's turn</div>
+    <div id="status" class="mb-3 fs-4">Player X's turn</div>
 
-        <div class="grid-container mb-4">
+    <div class="game-board mb-4">
+        <div class="grid-container">
         <button class="btn btn-tic cell" data-index="0"></button>
         <button class="btn btn-tic cell" data-index="1"></button>
         <button class="btn btn-tic cell" data-index="2"></button>
@@ -27,14 +28,14 @@
         <button class="btn btn-tic cell" data-index="7"></button>
         <button class="btn btn-tic cell" data-index="8"></button>
         </div>
-
-        <button id="resetBtn" class="btn mt-2">Restart Game</button>
-        <button id="resetScoreBtn" class="btn mt-2">Reset Score</button>
-
-        <br><br>
-        <a href="index.html" class="btn btn-outline-primary mt-2">⬅ Back to Home</a>
     </div>
 
+    <button id="resetBtn" class="btn mt-2">Restart Game</button>
+    <button id="resetScoreBtn" class="btn mt-2">Reset Score</button>
+
+    <br><br>
+    <a href="index.html" class="btn btn-outline-primary mt-2">⬅ Back to Home</a>
+    </div>
     <script src="js/tic-tac-toe.js"></script>
 </body>
 </html>

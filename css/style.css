@@ -23,7 +23,7 @@ body{
     background-color: #c084f5;
     color: white;
     font-size: 2rem;
-    height: 100px;
+    height: 90px;
     border: 1px solid white;
     border-radius: 8px;
 }
@@ -36,6 +36,7 @@ body{
     background-color: #9141f3;
     color: white;
     border: none;
+    margin: 4px;
 }
 
 #resetBtn:hover, #resetScoreBtn:hover {
@@ -46,6 +47,7 @@ a.btn-outline-primary {
     background-color: #f3e8fd;
     color: #9b5de5;
     border: 1px solid #9b5de5;
+    font-weight: 500;
 }
 
 a.btn-outline-primary:hover {
@@ -56,7 +58,13 @@ a.btn-outline-primary:hover {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
+    gap: 10px;
+}
+
+.game-board {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
 }
 
 /* rock-paper-scissors */
