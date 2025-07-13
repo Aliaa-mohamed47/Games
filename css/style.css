@@ -1,0 +1,103 @@
+body{
+    background: linear-gradient(to right, #d8b4f8, #fbcfe8);
+}
+
+.card {
+    background-color: #f3e8fd;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 16px;
+}
+
+.btn-custom {
+    background-color: #9b5de5;
+    color: white;
+}
+.btn-custom:hover {
+    background-color: #b783f2;
+    color: white;
+}
+
+/* tic-tac-toe */
+.btn-tic {
+    background-color: #c084f5;
+    color: white;
+    font-size: 2rem;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.btn-tic:hover {
+    background-color: #a75ee9;
+}
+
+#resetBtn, #resetScoreBtn {
+    background-color: #9141f3;
+    color: white;
+    border: none;
+}
+#resetBtn:hover, #resetScoreBtn:hover {
+    background-color: #b783f2;
+}
+
+a.btn-outline-primary {
+    background-color: #f3e8fd;
+    color: #9b5de5;
+    border: 1px solid #9b5de5;
+}
+a.btn-outline-primary:hover {
+    background-color: #9141f3;
+    color: white;
+}
+
+/* rock-paper-scissors */
+.choice-img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.btn-choice {
+    font-size: 2rem;
+    background-color: #9b5de5;
+    color: white;
+    border: none;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+
+.btn-choice:hover {
+    background-color: #b783f2;
+    transform: scale(1.2);
+}
+
+/* memory game */
+.memory-game .game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.memory-game .card {
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+    background-color: #9b5de5;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.memory-game .card.flipped {
+    background-color: #fff;
+    color: #9b5de5;
+    transform: rotateY(180deg);
+}
