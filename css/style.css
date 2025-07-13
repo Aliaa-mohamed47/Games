@@ -37,6 +37,7 @@ body{
     color: white;
     border: none;
 }
+
 #resetBtn:hover, #resetScoreBtn:hover {
     background-color: #b783f2;
 }
@@ -46,14 +47,16 @@ a.btn-outline-primary {
     color: #9b5de5;
     border: 1px solid #9b5de5;
 }
+
 a.btn-outline-primary:hover {
     background-color: #9141f3;
     color: white;
 }
 
-.grid-template-columns {
+.grid-container {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 8px; /* أو أي مسافة تحبيها */
+    gap: 8px;
 }
 
 /* rock-paper-scissors */
